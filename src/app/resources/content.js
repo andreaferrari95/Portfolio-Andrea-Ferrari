@@ -10,11 +10,11 @@ const person = {
   avatar: "/images/avatar.jpg",
   email: "andreaferraridev@gmail.com",
   location: "Europe/Berlin", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  languages: ["English", "Italian", "French", "German"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -60,14 +60,14 @@ const home = {
     display: true,
     title: (
       <>
-        Recent project: <strong className="ml-4">Once UI</strong>
+        Recent project: <strong className="ml-4">Green Pulse</strong>
       </>
     ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at{" "}
+      I'm Selene, a Frontend Developed at{" "}
       <Logo
         icon={false}
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
