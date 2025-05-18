@@ -67,7 +67,7 @@ const home = {
   },
   subline: (
     <>
-      I'm Selene, a Frontend Developer{" "}
+      I'm Andrea, a Frontend Developer{" "}
       <Logo
         icon={false}
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
@@ -92,17 +92,15 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://cal.com/andrea-ferrari-dev/30min?overlayCalendar=true",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for
-        transforming complex challenges into simple, elegant design solutions.
-        Her work spans digital interfaces, interactive experiences, and the
-        convergence of design and technology.
+        Andrea is a Germany-based Frontend Developeer with a passion for
+        transforming complex challenges into simple, elegant solutions.
       </>
     ),
   },
@@ -111,9 +109,9 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "Phonetastik",
+        timeframe: "2024 - Present",
+        role: "Frontend Developer / Ecommerce Developer / Project Manager",
         achievements: [
           {
             key: "fly-ui-ux-redesign",
@@ -161,8 +159,13 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
+        name: "Start 2 Impact University",
+        description: (
+          <>
+            Studied Frontend Development and currently rounding up into
+            FullStack
+          </>
+        ),
       },
       {
         name: "Build the Future",
