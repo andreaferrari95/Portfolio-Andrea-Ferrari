@@ -73,7 +73,7 @@ const home = {
         style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}
       />
       , with special interest on Environmental Issues.
-      <br /> Striving to make the difference through my projects.
+      <br /> Striving to make a difference through my projects.
     </>
   ),
 };
