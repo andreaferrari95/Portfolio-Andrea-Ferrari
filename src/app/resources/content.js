@@ -55,7 +55,7 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Make your ideas become real.</>,
   featured: {
     display: true,
     title: (
@@ -63,7 +63,7 @@ const home = {
         Recent project: <strong className="ml-4">Green Pulse</strong>
       </>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/Green-Pulse-The-climate-data-dashboard",
   },
   subline: (
     <>
@@ -114,43 +114,67 @@ const about = {
         role: "Frontend Developer / Ecommerce Developer / Project Manager",
         achievements: [
           {
-            key: "fly-ui-ux-redesign",
+            key: "alkaya-website-creation",
             content:
-              "Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user engagement and 30% faster load times.",
+              "Led the development of the alkaya. website, a project that involved close collaboration with the client to ensure their vision was realized.",
           },
           {
-            key: "ai-tools-integration",
+            key: "phonetastik-management",
             content:
-              "Spearheaded the integration of AI tools into design workflows, enabling designers to iterate 50% faster.",
+              "Managed the Phonetastik project, overseeing development of new features and ensuring the project met its deadlines and quality standards.",
+          },
+          {
+            key: "ecommerce-optimization",
+            content:
+              "Optimized the ecommerce platform and and CRM system for better performance and user experience, resulting in a 50% increase in conversion rates.",
           },
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
+            src: "/images/projects/project-01/cover-phonetastik.jpg",
+            alt: "Phonetastik work",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-alkaya.jpg",
+            alt: "alkaya. work",
             width: 16,
             height: 9,
           },
         ],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Madagascar film and photography",
+        timeframe: "2022 - 2023",
+        role: "Web Developer / Filmmaker / Photographer",
         achievements: [
           {
-            key: "design-system-unification",
+            key: "madagascar-website-development",
             content:
-              "Developed a design system that unified the brand across multiple platforms, improving design consistency by 40%.",
+              "Developed a custom website for Madagascar film and photography, enhancing their online presence and showcasing their portfolio.",
           },
           {
-            key: "product-line-launch",
+            key: "madagascar-filmmaking",
             content:
-              "Led a cross-functional team to launch a new product line, contributing to a 15% increase in overall company revenue.",
+              "Produced and edited high-quality video content for various projects, including promotional videos and documentaries for clients like ZDF and BBC.",
           },
         ],
-        images: [],
+        images: [
+          {
+            src: "/images/projects/project-01/cover-MFP.jpg",
+            alt: "Madagascar film and photography work",
+            width: 16,
+            height: 9,
+          },
+          {
+            src: "/images/projects/project-01/cover-ZDF.jpg",
+            alt: "ZDF work",
+            width: 16,
+            height: 9,
+          },
+        ],
       },
     ],
   },
@@ -167,10 +191,6 @@ const about = {
           </>
         ),
       },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
-      },
     ],
   },
   technical: {
@@ -178,21 +198,15 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "React.js",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
+          <>Building next gen apps with React.js + Once UI + HeroUI and more.</>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
           {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
+            src: "/images/projects/project-01/cover-01.jpg",
+            alt: "Green Pulse project image",
             width: 16,
             height: 9,
           },
@@ -201,17 +215,69 @@ const about = {
       {
         title: "Next.js",
         description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>
+            Utilizing Next.js for server-side rendering and static site
+            generation, ensuring optimal performance and SEO for web
+            applications.
+          </>
         ),
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
+      },
+      {
+        title: "Vite",
+        description: (
+          <>
+            Using Vite for fast and efficient development, enhancing the
+            development experience with its lightning-fast build times.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "JavaScript",
+        description: (
+          <>
+            Proficient in JavaScript, the language of the web, for building
+            interactive and dynamic user interfaces.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "TypeScript",
+        description: (
+          <>
+            Leveraging TypeScript for type safety and improved developer
+            experience in JavaScript applications.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "Tailwind CSS",
+        description: (
+          <>
+            Styling with Tailwind CSS, a utility-first CSS framework for rapid
+            UI development.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [],
+      },
+      {
+        title: "HTLML & CSS",
+        description: (
+          <>
+            Mastering HTML and CSS for crafting semantic, accessible, and
+            visually appealing web pages.
+          </>
+        ),
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
